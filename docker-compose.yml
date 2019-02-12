@@ -1,0 +1,6 @@
+version: '3'
+services:
+  sensor:
+    build: .
+    privileged: true
+    restart: on-failure
